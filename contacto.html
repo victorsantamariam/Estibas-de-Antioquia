@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Estibas de Antioquia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Estibas de Antioquia">
+                </a>
+            </div>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="contacto.html" class="active">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>CONTACTO</h1>
+            <p>Estamos aquí para ayudarte. Contáctanos para cualquier consulta o cotización.</p>
+        </div>
+    </section>
+
+    <section class="contacto-seccion">
+        <div class="container">
+            <div class="mapa-info-wrapper">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5116.834869967251!2d-75.52700164969383!3d6.339878508962284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44255afa414957%3A0xd9dea484af88d6ae!2sMadeferros!5e1!3m2!1ses!2sco!4v1725889724503!5m2!1ses!2sco" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="informacion-empresa">
+                    <h2>Información de Contacto</h2>
+                    <p><strong>Dirección:</strong> Calle 46 #69 - 192 interior 111 via machado - Copacabana, Antioquia</p>
+                    <p><strong>Teléfono:</strong> 3133815140</p>
+                    <p><strong>Email:</strong> estibasdeantioquia@gmail.com</p>
+                    <a href="https://wa.me/573133815140" class="whatsapp-btn" target="_blank">
+                        <img src="img/whatsapp.png" alt="WhatsApp">
+                        Contáctanos por WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+                <form action="mailto:estibasdeantioquia@gmail.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-bottom">
+            <p>&copy; 2024 Estibas de Antioquia. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
